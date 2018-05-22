@@ -1,0 +1,475 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+
+    /*怪异盒子*/
+    box-sizing: border-box;/*(国际通用标准)*/
+    -webkit-box-sizing: border-box;/*(苹果 谷歌浏览器)*/
+    -moz-box-sizing: border-box;/*(火狐浏览器)*/
+}
+
+/*公用样式（安全距离） 开始*/
+.aqjl{
+    width: 1000px;/*宽度*/
+    height: 100%;/*高度*/
+    margin: 0 auto;/*外边距 自动*/
+}
+/*公用样式 结束*/
+
+
+/*头部导航栏样式 开始*/
+
+.header{/*头部高度*/
+    height: 98px;/*高度*/
+}
+
+.nav-img{/*logo样式*/
+    float: left;/*左浮动*/
+    margin: 15px 0 23px 0;/*外边距*/
+}
+
+
+#topUl{
+    height: 98px;
+    float: right;/*往右飘*/
+    font-size: 16px;/*字体大小*/
+    line-height: 96px;
+    text-align: center;/*水平居中*/
+}
+
+#topUl>li{/*头部ul样式*/
+    display: inline-block;/*行块级*/
+    list-style: none;/*取消有序列表*/
+}
+
+#topUl>li:hover{/*头部ul伪类 样式*/
+    color: #00a1f1;/*字体颜色*/
+    border-bottom: 3px solid #00a1f1;/*伪类鼠标经过*/
+}
+
+.nav-1{ /*关于我们&新闻公告&人才招聘*/
+    margin: 0 40px 0 40px;/*外边距*/
+}
+/*头部导航栏样式 结束*/
+
+
+
+/*banner层样式 开始*/
+.banner{
+    height: 500px;/*高度*/
+    background-position: center;/*banner固定位置*/
+    background-repeat: no-repeat;/**banner不平铺*/
+    background-image: url(../img/banner.jpg);/*banner图*/
+}
+/*banner层样式 结束*/
+
+
+
+/*第一层样式 开始*/
+.ficon1{/*第一层图标高&宽*/
+    width: 1000px;/*宽度*/
+    height: 120px;/*高度*/
+    margin-top: 40px;/*上 外边距*/
+    font-size: 0px;/*icon相邻的零间距*/
+}
+
+.a1{/*五个图标外圈圆形样式*/
+    width: 120px;/*宽*/
+    height: 120px;/*高*/
+    margin-left: 90px;/*icon相邻左边距*/
+    color: #00a1f1;/*icon颜色*/
+    border-radius: 50%;/*圆角*/
+    text-align: center;/*水平居中*/
+    display: inline-block;/*行块级*/
+    border: 1px solid #00a1f1;/*描边*/
+}
+
+.shuidao{/*水稻icon*/
+    margin-left: 25px;/*左外边距*/
+}
+
+.a-1{/*五个icon*/
+    height: 120px;/*高*/
+    line-height: 120px;
+}
+
+.fziti1{/*第一段文字*/
+    width: 168px;/*宽度*/
+    color: #666;/*字体颜色*/
+    font-size: 0px;/*字体大小*/
+    margin:20px 36px 0 0;/*上 外边距*/
+    text-align: center;/*水平居中*/
+    display: inline-block;/*行块级*/
+}
+
+
+.nongye{/*农业*/
+    color: #000;/*字体颜色*/
+    font-size: 16px;/*字体大小*/
+}
+
+.ziti{/*油茶种植、加工、提炼项目...万吨级炼油厂项目*/
+    margin: 13px 0;/*字间距*/
+    font-size: 12px;/*字体大小*/
+}
+
+
+.fziti2{/*养老服务*/
+    width: 168px;/*宽度*/
+    float: right;/*往右飘*/
+    color: #666;/*字体颜色*/
+    font-size: 0px;/*字体大小*/
+    margin-top: 20px ;/*上 外边距*/
+    text-align: center;/*水平居中*/
+    display: inline-block;/*行块级*/
+}
+/*第一层样式 结束*/
+
+
+
+/*第二层样式 开始*/
+.f2kg{/*第二层整个高度*/
+    width: 100%;
+    height: 400px;
+}
+.floor2{/*关于我们底框*/
+    width: 700px;/*宽*/
+    height: 280px;/*高*/
+    float: left;/*往左*/
+    margin-top: 60px;/*上 外边距*/
+    border: 1px solid #e5e5e5;/*描边*/
+}
+
+.fimage{/*关于我们图片*/
+    width: 315px;/*宽*/
+    height: 280px;/*高*/
+    float: left;/*往左*/
+    background-image: url(../img/guanyuwomen-banner.jpg);/*图片*/
+}
+
+.f2ziti{/*关于我们...国际贸易等业务。*/
+    width: 290px;/*宽*/
+    height: 116px;/*高*/
+    float: right;/*往右*/
+    margin: 46px 46px;/*外边距*/
+    font-size: 24px;/*关于我们字体大小*/
+}
+
+.f2ziti>p{/*荣埔贸易有独产的法人财产，...国际贸易等业务。*/
+    color: #999999;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 26px;/*字间距*/
+    margin-top: 33px;/*与关于我们间距*/
+}
+
+.chakxq{/*查看详情按钮*/
+    width: 120px;/*宽*/
+    height: 34px;/*高*/
+    color: #808080;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-top: 34px;/*上 外边距*/
+    line-height: 34px;
+    text-align: center;/*水平居中*/
+    border-radius: 2px;/*描边*/
+    border: 1px solid #d9d9d9;/*描边*/
+    background-color: white;/*背景底色*/
+}
+
+.fl00r2-2{/*公司新闻&更多*/
+    width: 280px;/*宽*/
+    height: 280px;/*高*/
+    float: right;/*往右*/
+    margin-top: 60px;/*上 外边距*/
+    border: 1px solid #e6e6e6;/*描边*/
+}
+
+.new{/*公司新闻&更多背景*/
+    width: 280px;/*宽*/
+    height: 56px;/*高*/
+    background: #f7f7f7;/*背景颜色*/
+}
+
+.gongsi{/*公司新闻*/
+    float: left;/*往左*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 20px;/*左边距*/
+    line-height: 56px;/*居中*/
+}
+
+.gengduo{/*更多*/
+    float: right;/*往右*/
+    color: #808080;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-right: 20px;/*右边距*/
+    line-height: 56px;/*居中*/
+    text-decoration: none;/*取消下划线*/
+}
+
+.gsnr{/*公司新闻 内容*/
+    width: 260px;/*宽*/
+    color: #808080;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 36px;/*字间距*/
+    margin: 30px 8px 0px 14px;/*外边距*/
+}
+
+/*.usa{/!*美国一音乐人声称每年随身携枪登客机三五十次*!/
+    color: #00a1f1;/!*字体颜色*!/
+}*/
+
+.usa:hover{
+    color: #00a1f1;
+}
+
+/*第二层样式 结束*/
+
+
+
+
+/*第三层样式 开始*/
+.f3banner{/*第三层banner*/
+    width: 100%;/*宽*/
+    height: 500px;/*高*/
+    background-image: url(../img/banner-2.jpg);/*banner图*/
+}
+
+
+.whyme{/*为什么选择我们？*/
+    color: white;/*字体颜色*/
+    font-size: 36px;/*字体大小*/
+    text-align: center;/*水平居中*/
+    padding-top: 90px;/*上内边距*/
+}
+
+#iconjianju{/*四个icon相邻零间距*/
+    font-size: 0px;/*零间距*/
+    margin: 74px 20px 0 20px;/*外边距*/
+}
+
+.f3icon{/*第三层 icon图标底层*/
+    width: 120px;/*宽*/
+    height: 120px;/*高*/
+    margin-right: 160px;/*图标与图标的右距离*/
+    line-height: 120px;/*居中*/
+    border-radius: 50%;/*圆角*/
+    text-align: center;/*水平居中*/
+    display: inline-block;/*行块级*/
+    list-style: none;/*取消有序列表*/
+    background-color: #d90000;/*背景颜色*/
+}
+
+.f3icon li i{/*icon图标*/
+    color: white;/*icon颜色*/
+    font-size: 45px;/*icon大小*/
+}
+
+.f3i4{/*同步icon距离*/
+    margin-right: 0px;/*右外边距*/
+}
+
+.f3ziti{/*第三层字体*/
+    color:#ebb0b0;/*字体颜色*/
+    font-size: 18px;/*字体大小*/
+    margin-top: 30px;/*上外边距*/
+}
+
+.f3za1{/*100%保障资金安全*/
+    margin-right: 110px;/*右边距*/
+}
+
+.f3za2{/*投资期短，投资回报高*/
+    margin-right: 160px/*右边距*/
+}
+
+.f3za3{/*低门槛*/
+    margin-right: 194px;/*右边距*/
+}
+/*第三层样式 结束*/
+
+
+
+/*第四层样式 开始*/
+.floor4{/*第四层底框*/
+    width: 1000px;/*宽*/
+    height: 288px;/*高*/
+    margin-top: 60px;/*上边距*/
+    border: 1px solid #e6e6e6;/*描边*/
+}
+
+.chanpinzhans{/*产品展示&更多背景层*/
+    width: 1000px;/*宽*/
+    height: 55px;/*高*/
+    line-height: 55px;/*居中*/
+    background-color: #f7f7f7;/*背景颜色*/
+}
+
+.chanp {/*产品展示*/
+    float: left;/*往左*/
+    font-size: 18px;/*字体大小*/
+    margin-left: 20px;/*左边距*/
+}
+
+.chanpinzhans a{/*更多*/
+    float: right;/*往右*/
+    color: #9a9a9a;/*字体颜色*/
+    font-size: 16px;/*字体大小*/
+    margin-right: 20px;/*右边距*/
+    text-decoration: none;/*取消下划线*/
+}
+
+
+.f4div{/*第四层字体&图片*/
+    width: 300px;/*宽*/
+    height: 73px;/*高*/
+    font-size: 0px;/*零间距*/
+    display: inline-block;
+    /*margin: 30px 30px 30px 20px;/!*外边距*!/*/
+}
+
+.f4img{/*第四层图片*/
+    float: left;/*往左*/
+}
+
+
+.f4ziti{/*第四层字体*/
+    width: 172px;/*宽*/
+    float: right;/*往右*/
+    line-height: 12px;/*居中*/
+}
+
+.f4dazi{/*配资炒股融资成本年化20...*/
+    font-size: 14px;/*字体大小*/
+}
+
+.f4xiaozi{/*融资日增百亿元 增量资金再布局*/
+    color: #999999;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-top: 22px;/*行间距*/
+}
+
+.f4xiaozi2{/*下周抢筹三大板块，新春行....*/
+    color: #999999;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-top: 12px;/*行间距*/
+}
+/*第四层样式 结束*/
+
+
+
+/*第五层样式 开始*/
+
+.floor5{/*第五层距离*/
+    width: 960px;/*宽*/
+    height: 200px;/*高*/
+    margin: 60px 20px 68px 20px;/*外边距*/
+}
+
+.f5ziti{/*案例展示*/
+    color: #4c4c4c;/*字体颜色*/
+    font-size: 16px;/*字体大小*/
+}
+
+.f5img{/*图片*/
+    font-size: 0px;/*图片与图片零间距*/
+    margin-top: 46px;/*外边距*/
+}
+
+.f5img li{/*五个图片*/
+    list-style: none;/*取消有序列表*/
+    display: inline-block;/*行块级*/
+}
+
+.img1{/*图一*/
+    margin: 0 100px 0 16px;/*边距*/
+}
+
+.img2{/*图二*/
+    margin-right: 90px;/*右边距*/
+}
+
+.img3{/*图三*/
+    margin-right: 94px;/*右边距*/
+}
+
+.img4{/*图四*/
+    float: right;/*往右*/
+    margin-right: 16px;/*右边距*/
+}
+/*第五层样式 结束*/
+
+
+
+
+/*页脚样式 开始*/
+
+.footer0{/*页脚背景层*/
+    width: 100%;/*宽*/
+    height: 352px;/*高*/
+    background-color: #f2f2f2;/*背景色*/
+    border-top: 1px solid #e6e6e6;/*上描边*/
+}
+
+.yejiaoziti{/*页脚字体*/
+    height: 230px;/*高度*/
+    margin-top: 50px;/*上边距*/
+    border-bottom: 1px solid #e6e6e6;/*下描边*/
+}
+
+.we{/*关于我们&公司形象*/
+    width: 64px;/*宽*/
+    height: 160px;/*高*/
+    float: left;/*往左*/
+}
+
+.guanyuwomen{/*关于我们*/
+    color: #4c4c4c;/*字体颜色*/
+    margin-bottom: 28px;/*下边距*/
+}
+
+.yejxz{/*公司简介 公司团队 组织架构 公司形象*/
+    color: #808080;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    margin-bottom: 22px;/*下边距*/
+}
+
+.job{/*业务板块 农业 国外投资 建筑业 国际贸易 养老服务*/
+    width: 64px;/*宽*/
+    height: 220px;/*高*/
+    float: left;/*往左*/
+    margin-left: 138px;/*左边距*/
+}
+
+.new2{/*新闻资讯&招商合作*/
+    width: 64px;/*宽*/
+    height: 90px;/*高*/
+    float: left;/*往左*/
+    margin-left: 135px;/*左边距*/
+}
+
+.tel{/*全国服务热线:*/
+    float: right;/*往右*/
+    margin-left: 130px;/*左边距*/
+}
+
+.dianhua{/*0757-22332298*/
+    color: #a72323;/*字体颜色*/
+    font-size: 26px;/*字体大小*/
+    margin: 16px 0 12px 0;/*上 下边距*/
+}
+
+.time{/*工作时间&地址*/
+    width: 200px;/*宽*/
+    color: #7e7e7e;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    line-height: 22px;/*行间距*/
+}
+
+.banquan{/*版权所有*/
+    height: 72px;/*高*/
+    color: #808080;/*字体颜色*/
+    font-size: 12px;/*字体大小*/
+    text-align: center;/*水平居中*/
+    line-height: 72px;/*居中*/
+}
+/*页脚样式 结束*/
